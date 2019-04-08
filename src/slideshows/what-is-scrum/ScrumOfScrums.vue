@@ -13,7 +13,7 @@ import eagle from 'eagle.js'
 export default {
   mixins: [eagle.slide],
   props: {
-    steps: { default: 3 }
+    steps: { default: 1 }
   },
   data: function () {
     return {
