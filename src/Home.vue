@@ -3,20 +3,15 @@
   .content
     h1
       span.logo
-      span Eagle
-      span.grey .js
-    h2 A slideshow framework for hackers
-
-    iframe.github-star(src="https://ghbtns.com/github-btn.html?user=zulko&repo=eagle.js&type=star&count=true&size=large"
-                       frameborder="0" scrolling="0" width="160px" height="30px")
+      span SCRUM
+    h2 Um framework de gerenciamento agil de projeto
     p.
-      Eagle.js is a web-based slideshow framework for Vue.js.
-      It supports animations, themes, interactive widgets (for web demos),
-      and makes it easy to reuse components, slides and styles across presentations.
+      Scrum é uma metodologia de adaptação, iteratividade, rápidez, flexibilidade e eficiência,
+      projetada para fornecer um valor significativo de forma rápida durante todo o projeto
 
     p.
-      Most of all, Eagle aims at offering a simple and very hackable API so you
-      can get off the beaten tracks and craft the slideshows you really want.
+      Para entendermos melhor o scrum precisamos precisamos mergulhar no seu universo e nas suas definições,
+      negociaveis ou não, além de entender os papéis aos quais as pessoas que atuam nele precisam executar.
 
     .thumbnails
       .box-card(v-for='slideshow in slideshows')
@@ -93,10 +88,6 @@ h3 {
   font-size: 30px;
 }
 
-.grey {
-  color: #bbb
-}
-
 .box-card {
   text-align: center;
   margin-bottom: 50px;
@@ -124,15 +115,9 @@ a {
   width: 130px;
   height:90px;
   margin-right: 0.1em;
-  background-image: url(./logo.svg);
+  background-image: url(./scrum-logo.png);
   background-size: contain;
   background-position: center bottom;
   background-repeat: no-repeat;
-}
-
-.github-star {
-  display: block;
-  margin: 0 auto;
-  margin-top: -10px;
 }
 </style>
