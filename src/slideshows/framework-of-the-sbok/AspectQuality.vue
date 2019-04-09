@@ -3,13 +3,13 @@ eg-transition(:enter='enter', :leave='leave')
   .eg-slide(v-if='active')
     .eg-slide-content
       h4 Aspecto - Qualidade
-      eg-transition(leave='fadeOutLeft', enter='fadeInRight')
-        div.quality
+      div.quality
+        eg-transition(leave='fadeOutLeft', enter='fadeInRight')
           img(v-if='step===2' src='./assets/quality-cycle.png')
-          eg-transition(leave='fadeOut', enter='fadeIn')
-            p(v-if='step===2 && childWindow').
-              Em Scrum, a qualidade é definida como a capacidade dos produtos ou entregas concluídas em atender os
-              Critérios de Aceitação e em alcançar o valor de negócio esperado pelo cliente.
+        eg-transition(leave='fadeOut', enter='fadeIn')
+          p(v-if='step===2 && childWindow').
+            Em Scrum, a qualidade é definida como a capacidade dos produtos ou entregas concluídas em atender os
+            Critérios de Aceitação e em alcançar o valor de negócio esperado pelo cliente.
       eg-transition(leave='fadeOutLeft', enter='fadeInRight')
         div(v-if='step===3').acceptance
           h4 Exemplo Estoria (Critérios de Aceitação)
