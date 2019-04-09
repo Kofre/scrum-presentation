@@ -1,12 +1,13 @@
 {
-  "name": "eaglejs-example",
-  "version": "0.2.0",
-  "description": "Example presentation with Eagle.js",
-  "author": "Zulko",
+  "name": "scrum-presentation",
+  "version": "0.1.0",
+  "description": "Scrum overview based in SBOK",
+  "author": "Ronald Lima",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zulko/eaglejs-demo.git"
+    "url": "https://github.com/Kofre/scrum-presentation"
   },
+  "homepage": "https://kofre.github.io/scrum-presentation",
   "license": "ISC",
   "scripts": {
     "dev": "vue-cli-service serve",
