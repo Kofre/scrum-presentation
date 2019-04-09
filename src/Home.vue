@@ -23,6 +23,11 @@
         .caption
           h3 {{slideshow.infos.title}}
           p.thumbnail-description {{slideshow.infos.description}}
+
+    h4 Referência
+    p.reference
+      span Todo material da apresentação foi retirado da documentação oficial do SCRUMstudy:
+      a(href='https://www.scrumstudy.com/sbokguide/overview-of-sbok'  target="_blank" )  SBOK
 </template>
 
 <script>
@@ -120,4 +125,7 @@ a {
   background-position: center bottom;
   background-repeat: no-repeat;
 }
+  .reference{
+    font-size: medium;
+  }
 </style>

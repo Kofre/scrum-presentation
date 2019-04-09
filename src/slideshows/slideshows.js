@@ -2,6 +2,7 @@
 // website, don't forget to register your new slideshows in the list:
 export default {
   list: [
-    require('./what-is-scrum/WhatIsScrum').default
+    require('./what-is-scrum/WhatIsScrum').default,
+    require('./framework-of-the-sbok/FrameworkOfTheSBOK').default
   ]
 }
