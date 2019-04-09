@@ -20,6 +20,9 @@
    aspects(enter='bounceInDown' leave='bounceOutDown' :inserted='true')
    aspect-orgnization(enter='fadeInRight' leave='fadeOutLeft' :inserted='true' :childWindow="childWindow")
    aspects(enter='fadeInRight' leave='fadeOutLeft' :inserted='true')
+   aspect-business-justification(enter='fadeInRight' leave='fadeOutLeft' :inserted='true' :childWindow="childWindow")
+   aspects(enter='fadeInRight' leave='fadeOutLeft' :inserted='true')
+   aspect-quality(enter='fadeInRight' leave='fadeOutLeft' :inserted='true' :childWindow="childWindow")
 </template>
 
 <script>
@@ -29,7 +32,9 @@ export default {
   components: {
     'principles': require('./Principles').default,
     'aspects': require('./Aspects').default,
-    'aspect-orgnization': require('./AspectOrganization').default
+    'aspect-orgnization': require('./AspectOrganization').default,
+    'aspect-business-justification': require('./AspectBusinessJustification').default,
+    'aspect-quality': require('./AspectQuality').default
     // 'why-use': require('./WhyUse').default,
     // 'scrum-of-scrums': require('./ScrumOfScrums').default
   },
