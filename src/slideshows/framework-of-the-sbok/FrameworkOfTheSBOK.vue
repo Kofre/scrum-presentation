@@ -25,6 +25,9 @@
    aspect-quality(enter='fadeInRight' leave='fadeOutLeft' :inserted='true' :childWindow="childWindow")
    aspects(enter='fadeInRight' leave='fadeOutLeft' :inserted='true')
    aspect-change(enter='fadeInRight' leave='fadeOutLeft' :inserted='true' :childWindow="childWindow")
+   aspects(enter='fadeInRight' leave='fadeOutLeft' :inserted='true')
+   aspect-risk(enter='fadeInRight' leave='fadeOutLeft' :inserted='true' :childWindow="childWindow")
+   processes(enter='bounceInDown' leave='bounceOutDown' :inserted='true' :childWindow="childWindow")
 </template>
 
 <script>
@@ -37,7 +40,9 @@ export default {
     'aspect-orgnization': require('./AspectOrganization').default,
     'aspect-business-justification': require('./AspectBusinessJustification').default,
     'aspect-quality': require('./AspectQuality').default,
-    'aspect-change': require('./AspectChange').default
+    'aspect-change': require('./AspectChange').default,
+    'aspect-risk': require('./AspectRisk').default,
+    'processes': require('./Processes').default
     // 'why-use': require('./WhyUse').default,
     // 'scrum-of-scrums': require('./ScrumOfScrums').default
   },

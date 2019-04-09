@@ -18,7 +18,7 @@ import eagle from 'eagle.js'
 export default {
   mixins: [eagle.slide],
   props: {
-    steps: { default: 4 },
+    steps: { default: 2 },
     childWindow: { default: null }
   },
   data: function () {
