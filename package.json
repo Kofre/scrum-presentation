@@ -13,7 +13,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "push-dir --verbose --dir=dist --branch=gh-pages",
-    "release": "build && deploy"
+    "release": "npm run build && npm run deploy"
   },
   "dependencies": {
     "animate.css": "^3.7.0",
